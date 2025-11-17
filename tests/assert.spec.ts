@@ -14,6 +14,7 @@ test('playing with assertions', async ({ page }) => {
 
   //when it is an id, we use # inside the ()
   await expect(page.locator('#newButtonName')).toBeVisible;
+  await expect(page.locator('#newButtonName')).toBeVisible;
   //above means, I'm expecting the input to be visible
   
 
